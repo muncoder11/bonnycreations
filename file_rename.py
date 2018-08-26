@@ -7,7 +7,7 @@ folder_name = sys.argv[1]
 all_files = glob.glob( folder_name + '/*.jpg')
 print(all_files)
 
-#
+
 
 for index, filename in enumerate(all_files):
 
